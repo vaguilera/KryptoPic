@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_crypt"
+        android:icon="@drawable/action_crypt"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/saction_crypt"/>
+    <item
+        android:id="@+id/action_decrypt"
+        android:icon="@drawable/action_decrypt"
+        android:orderInCategory="110"
+        android:showAsAction="always"
+        android:title="@string/saction_decrypt"/>
+    
+    <item
+        android:id="@+id/action_remove"
+        android:icon="@drawable/action_remove"
+        android:orderInCategory="120"
+        android:showAsAction="always"
+        android:title="@string/saction_remove"/>
+       
+ 	<item
+        android:id="@+id/action_share"
+        android:icon="@drawable/action_share"
+        android:orderInCategory="130"
+        android:showAsAction="always"
+        android:title="@string/saction_share"/>
+   
+      
+</menu>
+       

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KryptoPic</string>
+    <string name="saction_crypt">Encrypt</string>
+    <string name="saction_remove">Remove</string>
+    <string name="saction_decrypt">Decrypt</string>
+    <string name="saction_share">Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="share_with">Share with...</string>
+    <string name="Main_text">Welcome to KryptoPic!</string>
+    <string name="DialogChangePassword_title">Set Password</string>
+    <string name="DialogChangePassword_Password1">Password</string>
+    <string name="DialogChangePassword_Password2">Retype Password</string>
+    <string name="DialogChangePassword_text">You should to set a password to share this picture. The password will be needed to decrypt the sent file.</string>
+    <string name="DialogChangePassword_error">Passwords doesn\'t match (or blank password)</string>
+    <string name="DialogSetPassword_text">You should to set a password to encrypt and decrypt pictures automatically. This password will be required for future access to the application, so keep it safe.</string>
+    <string name="DialogPassword_text">To access the application you need to enter your previosly configured password.</string>
+    <string name="DialogPassword_title">Enter Password</string>
+    <string name="DialogPassword_Password">Password:</string>
+    <string name="DialogPassword_error">Invalid password</string>
+    <string name="DialogPassword2_text">This picture is encrypted using a different password. You should enter the right password to be able to uncrypt it.</string>
+    <string name="alertbox_title">Alertbox title</string>
+    <string name="alert_title_new_user">Welcome to KryptoPic</string>
+    <string name="alert_new_user">This is the first time you run KryptoPic. You should to set a password to access and encrypt pictures.</string>
+    <string name="alert_title_first_cancel">Sorry!</string>
+    <string name="alert_first_cancel">To use this application is required to set a password for first time. Please run again the application and set a password.</string>
+    <string name="alert_button_next">Next</string>
+    <string name="alert_button_close">Close</string>
+    <string name="about">KryptoPic V0.5 - Developed by Victor Aguilera - http://www.kryptopic.com</string>
+    <string name="about_title">About KryptoPic</string>
+    
+    
+    <color name="red">#ff0000</color>
+    <color name="white">#ffffff</color>
+
+    <string name="title_activity_activity_options">Options</string>
+
+</resources>

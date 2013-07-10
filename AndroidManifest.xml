@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nocturns.cryptopic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nocturns.cryptopic.ActivityMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nocturns.cryptopic.ActivityViewPictures"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.nocturns.cryptopic.ActivityAlertbox"
+            android:label="@string/alertbox_title"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.nocturns.cryptopic.ActivityPasswordChange"
+            android:label="@string/alertbox_title"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.nocturns.cryptopic.ActivityPassword"
+            android:label="@string/alertbox_title"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.nocturns.cryptopic.ActivityPasswordPicture"
+            android:label="@string/alertbox_title"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.nocturns.cryptopic.ActivityOptions"
+            android:label="@string/title_activity_activity_options" 
+            android:theme="@style/testing"
+            >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>
